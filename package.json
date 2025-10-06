@@ -1,0 +1,13 @@
+{
+  "name": "gha-hello-node",
+  "version": "1.0.0",
+  "description": "Hello Node with GitHub Actions CI",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest --ci",
+    "start": "node src/index.js"
+  },
+  "devDependencies": {
+    "jest": "^29.4.3"
+  }
+}
